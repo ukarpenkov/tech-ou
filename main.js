@@ -1,5 +1,4 @@
 import { Markup, Telegraf } from "telegraf";
-import { message } from "telegraf/filters";
 
 export const token = "7386065922:AAFEb5iqND1w1zhnDbxWOdc_-TUJuitj09E";
 
