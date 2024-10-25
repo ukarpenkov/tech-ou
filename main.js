@@ -16,7 +16,7 @@ bot.command("start", (ctx) => {
     `Hi! ${ctx.from.first_name} 👋 \n \n Click the button to launch the application👇 `,
     Markup.inlineKeyboard([Markup.button.webApp("Launch APP", webAppUrl)])
   );
-})
+});
 bot.on("text", async (ctx) => {
   return ctx.reply(
     `Hi! ${ctx.from.first_name} 👋 \n \n Click the button to launch the application👇 `,
